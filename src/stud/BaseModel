@@ -1,0 +1,17 @@
+<?php
+
+declare(strict_types=1);
+
+namespace app\model\base;
+
+/**
+ * @mixin \think\Model
+ */
+class {{modelBaseName}} extends CommonModel
+{
+
+      protected $table = '{{table}}';
+
+      //警告：严禁修改此文件
+      //枚举  待开发
+}

@@ -1,0 +1,15 @@
+<?php
+
+declare(strict_types=1);
+
+namespace app\model;
+
+use app\model\base\{{modelBaseName}};
+
+/**
+ * @mixin \think\Model
+ */
+class {{modelName}} extends {{modelBaseName}}
+{
+
+}
